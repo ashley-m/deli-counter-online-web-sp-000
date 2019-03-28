@@ -14,7 +14,9 @@ def line(array)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array[0]}"
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  puts "Currently serving #{array[0]}."
 end
 
 def convert(array)
