@@ -9,7 +9,7 @@ def line(array)
     puts "The line is empty."
   else
     puts "The line is currently: "
-    
+
 end
 
 def now_serving
