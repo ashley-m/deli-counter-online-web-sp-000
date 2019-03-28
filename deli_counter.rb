@@ -8,11 +8,13 @@ def line(array)
   if array.size==0
     puts "The line is empty."
   else
-    puts "The line is currently: "
+    puts "The line is currently: #{convert(list).join(" ")}"
+  end
 
 end
 
-def now_serving
+def now_serving(array)
+  puts "Currently serving #{array[0]}"
 end
 
 def convert(array)
