@@ -18,4 +18,5 @@ end
 def convert(array)
   list = []
   array.each {|x| list<<"#{array.index(x)}. #{x}"}
+  return list
 end
