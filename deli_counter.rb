@@ -19,6 +19,6 @@ end
 
 def convert(array)
   list = []
-  array.each {|x| list<<"#{array.index(x)}. #{x}"}
+  array.each {|x| list<<"#{array.index(x)+1}. #{x}"}
   return list
 end
